@@ -18,7 +18,7 @@ FROM openjdk:17-jdk-slim
 
  
 
-COPY --from=maquinabuild /target/JBS-0.0.1-SNAPSHOT.jar Davi.jar
+COPY --from=maquinabuild /target/JBS-0.0.1-SNAPSHOT.jar Daviprat.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar", "Daviprat.jar"]
 
